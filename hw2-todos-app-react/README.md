@@ -13,17 +13,17 @@ In order to setup this application, follow these steps
 - Download the my repository where I'm posting the homeworks though
 
 ```
-https://github.com/135-Inveon-FullStack-Bootcamp-Classroom/BerkeSenturk_Homeworks.git
+$ git clone https://github.com/135-Inveon-FullStack-Bootcamp-Classroom/BerkeSenturk_Homeworks.git
 
-cd hw2-todos-app-react 
+$ cd hw2-todos-app-react 
 
-npm install
+$ npm install
 ```
 
 Finally you can start the app as follows
 
 ```
-npm start
+$ npm start
 ```
 
 ## Technical Details
