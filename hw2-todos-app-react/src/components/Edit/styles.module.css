@@ -1,0 +1,17 @@
+.todoForm{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.todoInput{
+    margin-right: 10px;
+}
+
+.taskAddButton{
+    margin-left: 10px;
+}
+
+.todoDate {
+    margin-left: 10px;
+}

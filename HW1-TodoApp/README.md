@@ -4,6 +4,8 @@
 
 Todo list application helps you to track your tasks in order to accomplish them without memorizing them. 
 
+You can preview the application through this netflify link: ```https://friendly-shirley-63d6dc.netlify.app/```
+
 ## Setting the Task
 You can set your task's details easily such as name, category and due date of the task. There are three category tags called Sport, Business and Social which helps you to distinguish your tasks easily. Each task category is displayed on the left side relative to the each task element with different categories.
 

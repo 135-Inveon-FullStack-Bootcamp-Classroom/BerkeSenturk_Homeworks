@@ -1,0 +1,31 @@
+.App {
+
+  /* 
+    firstly flex, 
+    then center it
+    after that use flex-direction for vertical list view
+    finally centerize it again 
+  */
+
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh;
+  /* background-color: rgb(170, 167, 167); */
+}
+
+.todoAll {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  
+  background-color: rgb(54, 54, 54);
+  color:rgb(216, 216, 216);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 40px;
+}

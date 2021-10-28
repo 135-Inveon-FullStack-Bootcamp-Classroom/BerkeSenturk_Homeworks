@@ -1,0 +1,48 @@
+.checkedCheckbox {
+    border: 2px solid rgb(26, 156, 26);
+    background-color: rgb(74, 75, 75);
+    color: white
+}
+
+li {
+    width: 350px;    
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: 2px solid rgb(8, 8, 8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* background-color: rgb(202, 209, 190); */
+
+    height: 6vh;
+    color: black;
+    
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */
+input[type="checkbox"] {
+    color:black
+    back
+}
+
+.titleText {
+    text-decoration: line-through;
+}
+
+.backgroundLate {
+    border: 2px solid rgb(255, 0, 0);
+    background-color: brown;
+    color:white;
+}
+
+.backgroundEarly {
+    border: 2px solid rgb(26, 156, 26);
+    color: white
+}
