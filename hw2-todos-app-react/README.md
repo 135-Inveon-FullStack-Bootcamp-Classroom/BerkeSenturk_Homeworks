@@ -2,7 +2,7 @@
 
 In this project, I've created a Todos List Application with ReactJS library. It is the first ReactJS project which I've completed so far. 
 
-You can view the latest version of the project, click to this netlify link: **https://hw2-todo-app-react.netlify.app/**
+You can view the latest version of the project, click to this netlify link: https://hw2-todo-app-react.netlify.app/
 
 ![ss](./img/SS.png)
 
