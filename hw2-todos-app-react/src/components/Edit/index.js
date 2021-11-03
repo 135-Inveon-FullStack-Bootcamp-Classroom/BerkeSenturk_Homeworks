@@ -4,7 +4,7 @@ import { TodosContext } from "../../contexts/TodosContext";
 import styles from "./styles.module.css"
 
 const TodoEdit = ({ todo })  => {
-    const [task, setTask] = useState('')
+    const [task, setTask] = useState({})
     const [category, setCategory] = useState('')
     const [date, setDate] = useState('')
 
@@ -16,7 +16,7 @@ const TodoEdit = ({ todo })  => {
         dispatch({type:'edit', todo: {id: todo.id, title : task, category: category, date: date}})
         
         // cleaning after addition 
-        setTask('')
+        setTask({})
 
     }
     return (
@@ -32,7 +32,7 @@ const TodoEdit = ({ todo })  => {
                 />
 
                 <Form.Select onChange={(e) => { setCategory(e.target.value) }} >
-                    <option>Select a category</option>
+                    <option>Select category</option>
                     <option value="Sport">Sport</option>
                     <option value="Business">Business</option>
                     <option value="Hobbies">Hobbies</option>
