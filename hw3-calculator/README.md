@@ -2,6 +2,8 @@
 
 Calculator App created via React JS Javacript library.
 
+![ss](./pic/ss.png)
+
 ## Try it out!
 
 Want to see live version? Click: https://happy-bardeen-53be51.netlify.app
