@@ -1,13 +1,13 @@
 import FetchTry from './Components/Product';
-import AlbumProvider from './Context/AlbumContext';
+import ProductProvider from './Context/ProductContext';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <AlbumProvider>
+      <ProductProvider>
         <FetchTry />
-      </AlbumProvider>
+      </ProductProvider>
     </div>
   );
 }

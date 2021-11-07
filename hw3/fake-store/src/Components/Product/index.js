@@ -10,22 +10,22 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import { CardActionArea } from '@mui/material';
 import Box from '@mui/material/Box';
-import { AlbumContext } from '../../Context/AlbumContext';
+import { ProductContext } from '../../Context/ProductContext';
+
 const Product = () => {
 
-    const { albumData, pageNumber, totalPageNumber, handlePage, setPageNumber } = useContext(AlbumContext)
+    const { albumData, pageNumber, totalPageNumber, handlePage, setPageNumber } = useContext(ProductContext)
 
     const handleChange = (event, value) => {
         setPageNumber(value)
-        handlePage(value -1 )
+        handlePage(value-1)
         console.log(pageNumber);
     }
 
-    
     return (
         <div>
             <Box style= {{ display:"flex", justifyContent:'center'}}>
-                <img src="https://picsum.photos/id/1002/1430/400" alt="" />
+                <img src="https://picsum.photos/id/1059/1900/600" alt="" />
             </Box>
 
             <Grid style={{marginTop:"10px"}} container spacing={{ xs: 2, md: 2, lg: 2 }} columns={{ xs: 4, sm: 8, md: 12 }}>

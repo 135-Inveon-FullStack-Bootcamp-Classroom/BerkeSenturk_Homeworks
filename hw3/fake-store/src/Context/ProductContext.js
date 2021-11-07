@@ -1,8 +1,8 @@
 import React, { useEffect, createContext, useState, useContext } from 'react'
 
-export const AlbumContext = createContext()
+export const ProductContext = createContext()
 
-function AlbumProvider({ children }) {
+function ProductProvider({ children }) {
     const [albumData, setAlbumData] = useState([])
     const [pageNumber, setPageNumber] = useState(0);
     const records = 9
@@ -23,14 +23,14 @@ function AlbumProvider({ children }) {
     }
     return (
 
-    <AlbumContext.Provider value = {{ pageNumber, 
+    <ProductContext.Provider value = {{ pageNumber, 
                                         albumData, 
                                         records, 
                                         totalPageNumber, 
                                         setPageNumber, 
-                                        handlePage }}> {children} </AlbumContext.Provider>)
+                                        handlePage }}> {children} </ProductContext.Provider>)
 }
 
-export const useAlbumContext = () => useContext(AlbumContext)
+export const useProductContext = () => useContext(ProductContext)
 
-export default AlbumProvider
+export default ProductProvider
