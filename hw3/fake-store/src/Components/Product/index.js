@@ -19,7 +19,6 @@ const Product = () => {
     const handleChange = (event, value) => {
         setPageNumber(value)
         handlePage(value-1)
-        console.log(pageNumber);
     }
 
     return (
