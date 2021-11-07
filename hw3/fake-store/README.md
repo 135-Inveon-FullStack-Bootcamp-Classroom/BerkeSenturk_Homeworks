@@ -12,6 +12,7 @@ Fake Store App has limited number of product records in each page which can be c
 - Context (Context API)
     - ProductContext
 
+![diagrams](./img/diagram.png)
 
 ## Live Demo
 
