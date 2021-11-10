@@ -1,20 +1,26 @@
-import { username, password } from "./secrets"
-
+import { username, password } from "./secrets";
 
 // types of actions
-export const GET_ALL_MEMES = "GET_ALL_MEMES"
-export const POST_MEME = "POST_MEME"
+export const GET_ALL_MEMES = "GET_ALL_MEMES";
+export const POST_MEME = "POST_MEME";
 
 function getAllMemes(json) {
-    const { memes } = json.data
+  const { memes } = json.data;
 
-    return {
-        type: GET_ALL_MEMES,
-        payload: memes
-    }
+  return {
+    type: GET_ALL_MEMES,
+    payload: memes
+  };
 }
 
 function fetchMemeJson() {
-    return fetch('https://api.imgflip.com/get_memes')
-                .then((response) => response.json())
+  return fetch("https://api.imgflip.com/get_memes").then((response) =>
+    response.json()
+  );
+}
+
+export function fetchMemes() {
+  return function (dispatch) {
+    return fetchMemeJson().then((json) => dispatch(getAllMemes(json)));
+  };
 }
