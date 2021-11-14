@@ -12,10 +12,10 @@ import { useSelector } from "react-redux"
 function Meme() {
 
     const memeProperties =  useSelector(state => state.memes.selectedMeme)
-    console.log(memeProperties);
+    
     return (
         <>
-            <Card sx={{ maxWidth: "1000px", width: "800px",  }}>
+            <Card sx={{ maxWidth: "500px", width: "800px",  }}>
                 <CardActionArea >
                     <CardMedia sx={{ maxHeight: 500, height:1000 }}
                         component="img"

@@ -8,14 +8,19 @@ export const memesSlice = createSlice({
                             name:"Drake Hotline Bling", 
                             url:"https://i.imgflip.com/30b1gx.jpg"
                     },
+        generatedMeme: {}
     },
     reducers: {
         pickSelected: (state, action) => {
             state.selectedMeme = action.payload
+        },
+        generatedMeme: (state, action) => {
+            state.generatedMeme = action.payload
         }
+
     }
 })
 
-export const { pickSelected } = memesSlice.actions
+export const { pickSelected, generatedMeme } = memesSlice.actions
 
 export default memesSlice.reducer

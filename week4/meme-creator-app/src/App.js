@@ -9,12 +9,12 @@ const stylesLeft = {
   flexDirection: "column",
   alignItems: "center",
   justifyContent: "center",
-  marginLeft: "100px",
+  marginLeft: "350px",
   marginTop: "10px"
 }
 
 const stylesRight = {
-  
+  marginRight: "100px"
 }
 
 function App() {
