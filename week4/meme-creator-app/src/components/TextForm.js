@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import { useSelector, useDispatch } from "react-redux"
 
 
-import memesSlice, { pickSelected, generatedMeme } from "../redux/memes/memesSlice"
+import memesSlice, { pickSelected } from "../redux/memes/memesSlice"
 
 
 const styleInputField = {
@@ -43,14 +43,14 @@ function TextForm() {
 
                 <div style={styleInputField}>
                     <TextField
+                        style={{marginBottom:"20px"}}
                         onChange={(e) => {setText1(e.target.value)}}
-                        helperText="Text-1"
                         id="demo-helper-text-misaligned"
                         label="Text-1"
                     />
                     <TextField
                         onChange={(e) => {setText2(e.target.value)}}
-                        helperText="Text-2"
+                        
                         id="demo-helper-text-misaligned"
                         label="Text-2"
                     />
@@ -82,7 +82,7 @@ function TextForm() {
                             color="secondary"
                             variant="contained"
                         >
-                           <a href={memeProperties.url} style={{color:"white", textDecoration:"none"}} download>Download</a>
+                           <a href={memeProperties.url} style={{color:"white", textDecoration:"none"}} download>Full Size</a>
                     </Button>
                 </div>
                 

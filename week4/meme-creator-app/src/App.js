@@ -10,7 +10,7 @@ const stylesLeft = {
   alignItems: "center",
   justifyContent: "center",
   marginLeft: "350px",
-  marginTop: "10px"
+
 }
 
 const stylesRight = {
