@@ -1,0 +1,16 @@
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/bin/Debug/net5.0/encapsulation
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/bin/Debug/net5.0/encapsulation.deps.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/bin/Debug/net5.0/encapsulation.runtimeconfig.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/bin/Debug/net5.0/encapsulation.runtimeconfig.dev.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/bin/Debug/net5.0/encapsulation.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/bin/Debug/net5.0/ref/encapsulation.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/bin/Debug/net5.0/encapsulation.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/obj/Debug/net5.0/encapsulation.csproj.AssemblyReference.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/obj/Debug/net5.0/encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/obj/Debug/net5.0/encapsulation.AssemblyInfoInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/obj/Debug/net5.0/encapsulation.AssemblyInfo.cs
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/obj/Debug/net5.0/encapsulation.csproj.CoreCompileInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/obj/Debug/net5.0/encapsulation.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/obj/Debug/net5.0/ref/encapsulation.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/obj/Debug/net5.0/encapsulation.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/encapsulation/obj/Debug/net5.0/encapsulation.genruntimeconfig.cache
