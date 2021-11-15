@@ -1,0 +1,16 @@
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/bin/Debug/net5.0/week5
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/bin/Debug/net5.0/week5.deps.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/bin/Debug/net5.0/week5.runtimeconfig.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/bin/Debug/net5.0/week5.runtimeconfig.dev.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/bin/Debug/net5.0/week5.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/bin/Debug/net5.0/ref/week5.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/bin/Debug/net5.0/week5.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/obj/Debug/net5.0/week5.csproj.AssemblyReference.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/obj/Debug/net5.0/week5.GeneratedMSBuildEditorConfig.editorconfig
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/obj/Debug/net5.0/week5.AssemblyInfoInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/obj/Debug/net5.0/week5.AssemblyInfo.cs
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/obj/Debug/net5.0/week5.csproj.CoreCompileInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/obj/Debug/net5.0/week5.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/obj/Debug/net5.0/ref/week5.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/obj/Debug/net5.0/week5.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/obj/Debug/net5.0/week5.genruntimeconfig.cache
