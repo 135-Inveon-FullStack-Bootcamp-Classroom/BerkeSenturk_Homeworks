@@ -1,0 +1,16 @@
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/bin/Debug/net5.0/structs
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/bin/Debug/net5.0/structs.deps.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/bin/Debug/net5.0/structs.runtimeconfig.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/bin/Debug/net5.0/structs.runtimeconfig.dev.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/bin/Debug/net5.0/structs.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/bin/Debug/net5.0/ref/structs.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/bin/Debug/net5.0/structs.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/obj/Debug/net5.0/structs.csproj.AssemblyReference.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/obj/Debug/net5.0/structs.GeneratedMSBuildEditorConfig.editorconfig
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/obj/Debug/net5.0/structs.AssemblyInfoInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/obj/Debug/net5.0/structs.AssemblyInfo.cs
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/obj/Debug/net5.0/structs.csproj.CoreCompileInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/obj/Debug/net5.0/structs.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/obj/Debug/net5.0/ref/structs.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/obj/Debug/net5.0/structs.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/structs/obj/Debug/net5.0/structs.genruntimeconfig.cache
