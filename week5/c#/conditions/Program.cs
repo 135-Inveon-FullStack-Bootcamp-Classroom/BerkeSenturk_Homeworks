@@ -30,7 +30,37 @@ namespace conditions
             Console.WriteLine(sonuc);
         }
         static void switchCase(){
+            int month = DateTime.Now.Month;
 
+            switch (month)
+            {
+                case 1:
+                    Console.WriteLine("ocak");
+                    break;
+                case 2:
+                    Console.WriteLine("şubat");
+                    break;
+                case 3:
+                    Console.WriteLine("mart");
+                    break;
+        
+                default:
+                    Console.WriteLine("doesn't fit to any of the cases");
+                    break;
+                
+            }
+            switch (month)
+            {
+                case 12:
+                case 1:
+                case 2:
+                    Console.WriteLine("kış");
+                    break;
+                
+                default:
+                    Console.WriteLine("kışta değilsiniz");
+                    break;
+            }
         }
     }
 }
