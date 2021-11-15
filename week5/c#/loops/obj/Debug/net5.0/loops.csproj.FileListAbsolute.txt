@@ -1,0 +1,16 @@
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/obj/Debug/net5.0/loops.csproj.AssemblyReference.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/obj/Debug/net5.0/loops.GeneratedMSBuildEditorConfig.editorconfig
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/obj/Debug/net5.0/loops.AssemblyInfoInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/obj/Debug/net5.0/loops.AssemblyInfo.cs
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/obj/Debug/net5.0/loops.csproj.CoreCompileInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/bin/Debug/net5.0/loops
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/bin/Debug/net5.0/loops.deps.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/bin/Debug/net5.0/loops.runtimeconfig.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/bin/Debug/net5.0/loops.runtimeconfig.dev.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/bin/Debug/net5.0/loops.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/bin/Debug/net5.0/ref/loops.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/bin/Debug/net5.0/loops.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/obj/Debug/net5.0/loops.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/obj/Debug/net5.0/ref/loops.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/obj/Debug/net5.0/loops.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/loops/obj/Debug/net5.0/loops.genruntimeconfig.cache
