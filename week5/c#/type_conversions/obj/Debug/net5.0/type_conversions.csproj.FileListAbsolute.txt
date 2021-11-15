@@ -1,0 +1,16 @@
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/bin/Debug/net5.0/type_conversions
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/bin/Debug/net5.0/type_conversions.deps.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/bin/Debug/net5.0/type_conversions.runtimeconfig.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/bin/Debug/net5.0/type_conversions.runtimeconfig.dev.json
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/bin/Debug/net5.0/type_conversions.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/bin/Debug/net5.0/ref/type_conversions.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/bin/Debug/net5.0/type_conversions.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/obj/Debug/net5.0/type_conversions.csproj.AssemblyReference.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/obj/Debug/net5.0/type_conversions.GeneratedMSBuildEditorConfig.editorconfig
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/obj/Debug/net5.0/type_conversions.AssemblyInfoInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/obj/Debug/net5.0/type_conversions.AssemblyInfo.cs
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/obj/Debug/net5.0/type_conversions.csproj.CoreCompileInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/obj/Debug/net5.0/type_conversions.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/obj/Debug/net5.0/ref/type_conversions.dll
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/obj/Debug/net5.0/type_conversions.pdb
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week5/c#/type_conversions/obj/Debug/net5.0/type_conversions.genruntimeconfig.cache
