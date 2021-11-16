@@ -63,7 +63,7 @@ namespace type_conversions
 
             sayi1 = Convert.ToInt32(s1);
             sayi2 = Convert.ToInt32(s2);
-            
+
             Toplam = sayi1 + sayi2;
 
             Console.WriteLine("toplam: " + Toplam);
