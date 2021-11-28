@@ -1,0 +1,1 @@
+command ile validation'ı tamamla!!!!

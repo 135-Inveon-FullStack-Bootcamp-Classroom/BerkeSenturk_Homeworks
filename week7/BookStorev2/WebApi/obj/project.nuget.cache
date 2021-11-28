@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "obtdUg3ghi+8Df2RkZg55Q3KqxtqANQHskEADfVL9zncE4PDqlJKPyrtd3UHVZfQ/gOE8UQvP09kpWtTV6Ml2g==",
+  "dgSpecHash": "knExN9ijzskbfrZZT6GjdbpPWZPXOOhgowLSAUusBMG7k1dOB6mx+beAmEelrIAu4YW7s8RB8c8/s03gVbs2uQ==",
   "success": true,
   "projectFilePath": "/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/BookStorev2/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
     "/home/berke/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/home/berke/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/home/berke/.nuget/packages/fluentvalidation/10.1.0/fluentvalidation.10.1.0.nupkg.sha512",
     "/home/berke/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/berke/.nuget/packages/microsoft.entityframeworkcore/5.0.6/microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
     "/home/berke/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.6/microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",

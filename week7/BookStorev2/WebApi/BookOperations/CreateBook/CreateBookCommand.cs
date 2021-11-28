@@ -27,11 +27,7 @@ namespace WebApi.BookOperations.CreateBook
                 throw new InvalidOperationException("Book exists already.");
             
             // .Map<target> 
-            book = _mapper.Map<Book>(Model); //new Book();
-            // book.Title = Model.Title;
-            // book.PublishDate = Model.PublishDate;
-            // book.PageCount = Model.PageCount;
-            // book.GenreId = Model.GenreId;    
+            book = _mapper.Map<Book>(Model); 
 
             _dbContext.Books.Add(book);
             _dbContext.SaveChanges();

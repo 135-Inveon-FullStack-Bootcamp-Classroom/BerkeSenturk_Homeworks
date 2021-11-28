@@ -8,6 +8,8 @@ using static WebApi.BookOperations.CreateBook.CreateBookCommand;
 using System;
 using AutoMapper;
 using WebApi.BookOperations.GetBookDetail;
+using FluentValidation.Results;
+using FluentValidation;
 
 namespace WebApi.AddControllers
 {
@@ -60,7 +62,19 @@ namespace WebApi.AddControllers
             try
             {
                 command.Model = newBook;
+                CreateBookCommandValidator validator = new CreateBookCommandValidator();
+                validator.ValidateAndThrow(command);
                 command.Handle();
+                
+                // ValidationResult result = validator.Validate(command);
+
+                // if(!result.IsValid)
+                //     foreach(var item in result.Errors)
+                //         Console.WriteLine("Field: " + item.PropertyName + " - Error Message: " + item.ErrorMessage);
+                // else
+                // {
+                //     command.Handle();
+                // }
             }
             catch (Exception ex)
             {

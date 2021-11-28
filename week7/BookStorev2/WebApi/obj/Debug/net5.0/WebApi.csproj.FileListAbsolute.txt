@@ -34,3 +34,4 @@
 /home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/BookStorev2/WebApi/obj/Debug/net5.0/ref/WebApi.dll
 /home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/BookStorev2/WebApi/obj/Debug/net5.0/WebApi.pdb
 /home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/BookStorev2/WebApi/obj/Debug/net5.0/WebApi.genruntimeconfig.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/BookStorev2/WebApi/bin/Debug/net5.0/FluentValidation.dll
