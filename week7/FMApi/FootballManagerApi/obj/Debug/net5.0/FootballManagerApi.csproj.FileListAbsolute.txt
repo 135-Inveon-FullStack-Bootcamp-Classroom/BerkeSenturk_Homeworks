@@ -1,0 +1,7 @@
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/FMApi/FootballManagerApi/obj/Debug/net5.0/FootballManagerApi.csproj.AssemblyReference.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/FMApi/FootballManagerApi/obj/Debug/net5.0/FootballManagerApi.GeneratedMSBuildEditorConfig.editorconfig
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/FMApi/FootballManagerApi/obj/Debug/net5.0/FootballManagerApi.AssemblyInfoInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/FMApi/FootballManagerApi/obj/Debug/net5.0/FootballManagerApi.AssemblyInfo.cs
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/FMApi/FootballManagerApi/obj/Debug/net5.0/FootballManagerApi.csproj.CoreCompileInputs.cache
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/FMApi/FootballManagerApi/obj/Debug/net5.0/FootballManagerApi.MvcApplicationPartsAssemblyInfo.cs
+/home/berke/inveonFullStack/BerkeSenturk_Homeworks/week7/FMApi/FootballManagerApi/obj/Debug/net5.0/FootballManagerApi.MvcApplicationPartsAssemblyInfo.cache
