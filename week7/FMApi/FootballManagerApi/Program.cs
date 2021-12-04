@@ -12,7 +12,6 @@ namespace FootballManagerApi
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
                 .Enrich.FromLogContext()
-                .WriteTo.Console()
                 .CreateLogger();
             Log.Information("Starting web host");
             CreateHostBuilder(args).Build().Run();
@@ -20,7 +19,6 @@ namespace FootballManagerApi
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .UseSerilog()
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

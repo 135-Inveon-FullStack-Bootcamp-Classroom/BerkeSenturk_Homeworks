@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FootballManagerApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211127104858_initial")]
+    [Migration("20211204222255_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -267,7 +267,7 @@ namespace FootballManagerApi.Migrations
                         .HasForeignKey("NationalTeamId");
 
                     b.HasOne("FootballManagerApi.Entities.Team", "Team")
-                        .WithMany()
+                        .WithMany("Footballers")
                         .HasForeignKey("TeamId");
 
                     b.Navigation("NationalTeam");
@@ -321,6 +321,11 @@ namespace FootballManagerApi.Migrations
             modelBuilder.Entity("FootballManagerApi.Entities.Coach", b =>
                 {
                     b.Navigation("Tactics");
+                });
+
+            modelBuilder.Entity("FootballManagerApi.Entities.Team", b =>
+                {
+                    b.Navigation("Footballers");
                 });
 #pragma warning restore 612, 618
         }
