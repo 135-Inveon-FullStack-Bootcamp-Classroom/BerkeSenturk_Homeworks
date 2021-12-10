@@ -11,12 +11,12 @@ namespace WebApi.AddControllers
 {
     [ApiController]
     [Route("[controller]s")]
-    public class BookController : ControllerBase
+    public class GenreController : ControllerBase
     {
 
         private readonly ApplicationDbContext _context;
 
-        public BookController(ApplicationDbContext context)
+        public GenreController(ApplicationDbContext context)
         {
             _context = context;
         }
@@ -24,16 +24,16 @@ namespace WebApi.AddControllers
         [HttpGet]
         public IActionResult GetBooks()
         {
-            GetBooksQuery query = new GetBooksQuery(_context);
+            GetGenresQuery query = new GetBooksQuery(_context);
             var result = query.Handle();
             return Ok(result);
         }
 
         [HttpGet("{id}")]
-        public Book GetById(int id)
+        public Genre GetById(int id)
         {
-            var book = _context.Books.Where(book => book.Id == id).SingleOrDefault();
-            return book;
+            var genre = _context.Genres.Where(genre => genre.Id == id).SingleOrDefault();
+            return genre;
         }
 
         //Post
@@ -57,17 +57,17 @@ namespace WebApi.AddControllers
 
         //Put
         [HttpPut("{id}")]
-        public IActionResult UpdateBook(int id, [FromBody] Book updatedBook)
+        public IActionResult UpdateBook(int id, [FromBody] Book updatedGenre)
         {
-            var book = _context.Books.SingleOrDefault(x => x.Id == id);
+            var genre = _context.Genres.SingleOrDefault(x => x.Id == id);
 
-            if (book == null)
+            if (genre == null)
                 return BadRequest();
 
-            book.GenreId = updatedBook.GenreId != default ? updatedBook.GenreId : book.GenreId;
-            book.PageCount = updatedBook.PageCount != default ? updatedBook.PageCount : book.PageCount;
-            book.PublishDate = updatedBook.PublishDate != default ? updatedBook.PublishDate : book.PublishDate;
-            book.Title = updatedBook.Title != default ? updatedBook.Title : book.Title;
+            genre.GenreId = updatedGenre.GenreId != default ? updatedGenre.GenreId : genre.GenreId;
+            genre.PageCount = updatedGenre.PageCount != default ? updatedGenre.PageCount : genre.PageCount;
+            genre.PublishDate = updatedGenre.PublishDate != default ? updatedGenre.PublishDate : genre.PublishDate;
+            genre.Title = updatedGenre.Title != default ? updatedGenre.Title : genre.Title;
 
             _context.SaveChanges();
             return Ok();    

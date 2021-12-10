@@ -10,9 +10,9 @@ namespace WebApi.BookOperations.CreateBook
     public class CreateBookCommand
     {
         public CreateBookModel Model { get; set; }
-        private readonly BookStoreDbContext _dbContext;
+        private readonly ApplicationDbContext _dbContext;
         
-        public CreateBookCommand(BookStoreDbContext dbContext)
+        public CreateBookCommand(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }

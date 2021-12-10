@@ -9,7 +9,7 @@ namespace WebApi.DBOperations
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            using(var context = new BookStoreDbContext(serviceProvider.GetRequiredService<DbContextOptions<BookStoreDbContext>>()))
+            using(var context = new ApplicationDbContext(serviceProvider.GetRequiredService<DbContextOptions<ApplicationDbContext>>()))
             {
                 if(context.Books.Any())
                 { 
@@ -39,6 +39,23 @@ namespace WebApi.DBOperations
                         PageCount = 300,
                         PublishDate = new System.DateTime(2012,05,17)
                     });
+                
+                if(context.Genres.Any())
+                {
+                    return;
+                }
+
+                context.Genres.AddRange(
+                    new Genre {
+                        Id=1,
+                        Title = "Personal Growth",
+                    },
+                    new Genre {
+                        Id = 2,
+                        Title = "Sci-fi"
+                    }
+                );
+                
                 context.SaveChanges();
             }
         }
